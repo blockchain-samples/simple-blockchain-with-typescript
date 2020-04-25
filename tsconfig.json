@@ -9,6 +9,6 @@
         "outDir": "./dist"
     },
     //어떤 파일들이 compile 과정에서 포함될지 설정
-    "include" : ["./src/index.ts"],
+    "include" : ["src/prevIndex.ts"],
     "exclude": ["node_module"]
 }
