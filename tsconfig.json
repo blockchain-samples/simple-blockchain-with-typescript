@@ -1,0 +1,14 @@
+//specify some options to typescript when typescript file convert to javascript files
+
+{
+    //자바스크립트로 변환될 때 사용될 옵션 설정
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ES2015",
+        "sourceMap": true,
+        "outDir": "./dist"
+    },
+    //어떤 파일들이 compile 과정에서 포함될지 설정
+    "include" : ["./src/index.ts"],
+    "exclude": ["node_module"]
+}
